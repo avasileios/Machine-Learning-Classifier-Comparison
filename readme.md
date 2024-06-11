@@ -4,7 +4,7 @@ This project compares multiple machine learning classifiers on a dataset to iden
 
 ## Project Structure
 
-- `process_files.py`: The main script that processes the CSV files.
+- `ml.py`: The main script that processes the CSV files.
 - `requirements.txt`: List of dependencies.
 ## Setup
 
@@ -29,7 +29,7 @@ This project compares multiple machine learning classifiers on a dataset to iden
 2. **Run the script:**
 
    ```
-   python process_files.py
+   python ml.py
    ```
 
 3. **Output:**
@@ -54,7 +54,7 @@ The expected directory structure is:
 project-directory/
 ├── README.md
 ├── requirements.txt
-├── process_files.py
+├── ml.py
 ├── log2.csv
 ```
 
