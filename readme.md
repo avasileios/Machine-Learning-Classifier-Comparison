@@ -1,55 +1,66 @@
-# Machine Learning Classifier Comparison
+# 🤖 Machine Learning Classifier Comparison
 
-This project compares multiple machine learning classifiers on a dataset to identify the best performing model based on accuracy, F1 score, and AUC score. It uses resampling techniques to handle class imbalance and standard scaling for feature normalization.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![ML](https://img.shields.io/badge/Machine%20Learning-Classifiers-orange?style=for-the-badge&logo=scikitlearn)
 
-## Project Structure
+This project compares **multiple machine learning classifiers** on a dataset to identify the **best performing model** based on:  
+✅ Accuracy  
+✅ F1 Score  
+✅ AUC Score  
 
-- `ml.py`: The main script that processes the CSV files.
-- `requirements.txt`: List of dependencies.
-## Setup
+It also applies **resampling techniques** to handle class imbalance and **standard scaling** for feature normalization.  
 
-### Prerequisites
+---
 
-- Python 3.x
+## 📂 Project Structure
+- `ml.py` – Main script that processes the dataset and evaluates classifiers.  
+- `requirements.txt` – List of dependencies.  
 
-### Installation
+---
 
-1. **Install the required packages:**
+## ⚙️ Setup
 
-   ```
-   pip install -r requirements.txt
-   ```
+### 🔑 Prerequisites
+- Python **3.x**  
 
-## Usage
+### 📦 Installation
+Install the required packages:
+```bash
+pip install -r requirements.txt
+```
 
-1. **Prepare your dataset:**
+---
 
-   Place your CSV file (e.g., `log2.csv`) in the project directory.
+## 💻 Usage
 
-2. **Run the script:**
+### 1️⃣ Prepare Dataset
+Place your CSV file (e.g., `log2.csv`) in the **project directory**.  
 
-   ```
-   python ml.py
-   ```
+### 2️⃣ Run the Script
+```bash
+python ml.py
+```
 
-3. **Output:**
+### 3️⃣ Output
+- 📊 Processed results and analysis printed in the console.  
+- 📈 Plots and logs generated in the specified directories.  
 
-   - The processed results and analysis will be printed in the console.
-   - Plots and logs will be generated in the specified directories.
+---
 
-## Dependencies
+## 📦 Dependencies
+- `numpy`  
+- `pandas`  
+- `scikit-learn`  
+- `imbalanced-learn`  
+- `seaborn`  
+- `matplotlib`  
 
-- numpy
-- pandas
-- scikit-learn
-- imbalanced-learn
-- seaborn
-- matplotlib
+---
 
-## Directory Structure
-
-The expected directory structure is:
-
+## 📁 Directory Structure
+Expected structure:
 ```
 project-directory/
 ├── README.md
@@ -58,10 +69,13 @@ project-directory/
 ├── log2.csv
 ```
 
-## Contributing
+---
 
-Feel free to fork this repository and make improvements. Pull requests are welcome.
+## 🤝 Contributing
+Contributions are welcome!  
+Fork this repository, make improvements, and submit a pull request.  
 
-## License
+---
 
-This project is licensed under the MIT License.
+## 📜 License
+This project is licensed under the **MIT License**.  
